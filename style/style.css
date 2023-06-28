@@ -68,12 +68,31 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
+.conteudo-experiencias{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo-formacao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .apresentacao_links{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+}
+
+.link-experiencia{
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
 }
 
 .apresentacao_links_link_subtitulo{
