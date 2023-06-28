@@ -50,6 +50,12 @@ body {
     gap: 82px;
 }
 
+.conteudo-article{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .apresentacao_conteudo{
     width: 50%;
     display: flex;
